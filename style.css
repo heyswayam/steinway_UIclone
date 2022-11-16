@@ -1,0 +1,184 @@
+* {box-sizing:border-box}
+body{
+  overflow-x: hidden;
+}
+
+.slideshow-container {
+  max-width: 1400px;
+  position: relative;
+  margin: auto;
+}
+.logo{
+  width: 4%;
+}
+.headtext{
+  font-family: 'Anton', sans-serif;
+  font-size: larger;
+}
+.devitext1{
+  letter-spacing: 0.2em;
+}
+.devitext2{
+  font-size: 1.4rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.mySlides {
+  display: none;
+}
+.devibtn:hover{
+  background-color: rgba(240, 248, 255, 0.701);
+  
+}
+.subttl{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.devigridtext{
+  font-family: 'Xanh Mono', monospace;
+  font-weight: 550;
+
+
+}
+.devigridtext1{
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  font-family: 'Dancing Script', cursive;
+  
+  color: #f2f2f2;
+  font-size: 5rem;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 550px;
+  width: 100%;
+  left: 300px;
+  text-align: center;
+}
+.text1 {
+  font-family: 'Dancing Script', cursive;
+  color: #f2f2f2;
+  font-size: x-large;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 540px;
+  width: 100%;
+  left: 300px;
+  text-align: center;
+}
+.text2 {
+  font-family: 'Dancing Script', cursive;
+  color: #f2f2f2;
+  font-size: 3rem;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 540px;
+  width: 100%;
+  text-align: center;
+  max-width: 800px;
+  left: 540px;
+}
+.text3 {
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  font-size: xx-large;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 550px;
+  width: 100%;
+  text-align: center;
+  max-width: 700px;
+  left: 70px;
+}
+
+
+.numbertext {
+  color: white;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.soutext{
+  font-family: 'Quicksand', sans-serif;
+}
+.soutext2{
+  font-family: 'Dancing Script', cursive;
+
+}
+.foottext{
+  font-family: 'Anton', sans-serif;
+
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@media screen and (max-width:772px) {
+  .logo{
+    visibility: hidden;
+  }
+}
+@media screen and (max-width:1312px) {
+  .text1{
+    visibility: hidden;
+  }
+  .text{
+    visibility: hidden;
+  }
+  .text2{
+    visibility: hidden;
+  }
+  .text3{
+    visibility: hidden;
+  }
+  
+}
